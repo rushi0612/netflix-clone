@@ -9,7 +9,7 @@
 .login-form{
     width: 100%;
     max-width: 450px;
-    background: rgb(0, 0, 0.75);
+    background: rgb(0 0 0 / 72%);
     padding: 60px;
     border-radius: 4px;
     margin: auto;
@@ -85,4 +85,14 @@
 }
 .login-spinner img{
     width: 60px;
+}
+
+@media (max-width: 500px){
+    .login{
+        padding: 15px 5%;
+    }
+    .login-form{
+        padding: 20px;
+        margin-top: 30px;
+    }
 }
